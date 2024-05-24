@@ -1,0 +1,82 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMBTH4EOkJr+zBNe0DoyMtB",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/nikitasubudhi/RS-Python-Task/blob/main/NIKITA\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "H91LTVPI1pLZ"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def check_anagram(str1,str2):\n",
+        "  str1=str1.replace(\" \",\"\")\n",
+        "  str2=str2.replace(\" \",\"\")\n",
+        "  if len(str1)==len(str2):\n",
+        "    return sorted(str1)==sorted(str2)\n",
+        "\n",
+        "  return false\n",
+        "string1=input(\"s=\")\n",
+        "string2=input(\"t=\")\n",
+        "if check_anagram(string1,string2):\n",
+        "  print(\"True\")\n",
+        "else:\n",
+        "  print(\"false\")\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hE3jm7V81tAT",
+        "outputId": "3832c0a2-d598-4eb1-8deb-8ad1a9a62571"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "s=car\n",
+            "t=rat\n",
+            "false\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
