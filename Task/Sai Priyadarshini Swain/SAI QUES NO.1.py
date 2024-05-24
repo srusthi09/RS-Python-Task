@@ -8,3 +8,6 @@ def is_anagram(s,t):
 s= "anagram"
 t= "nagaram"
 print(is_anagram(s,t))
+s = "rat"
+t = "car"
+print(is_anagram(s,t))
