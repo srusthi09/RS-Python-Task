@@ -31,7 +31,6 @@ def main(arr):
     print("Maximum:", maxx)
     print("The absolute difference is:", maxx-minn)
 
-# Driver code
 if __name__ == "__main__":
     arr = [1, 2, 3, 4, 5, 6, 7]
     main(arr)
